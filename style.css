@@ -1,0 +1,302 @@
+html{
+	font-family: nexa light;
+}
+
+a {
+	color: #eee;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #1f1;
+	transition: 0.15s;
+	text-decoration: none;
+}
+
+div{ 
+	margin: 0px 0px;
+	padding: 50px 0px;
+	
+}
+
+div:hover{ 
+	
+}
+
+div.gallery{
+	padding: 0px 0px;
+}
+
+div.gall{
+	margin: 0 10%;
+}
+
+div.gall img{ 
+	
+	margin: 15px 0;
+	margin-bottom: 30px;
+	padding: 5px 5px;
+    border: 1.5px solid #ccc;
+    float: left;
+    width: 250px;
+	height: 200px;
+	overflow:hidden;
+	transition: .3s;
+	
+}
+
+div.gall img:hover{ 
+	background-color: #3a3;
+}
+
+
+.about_pic{
+	border:10px solid #eee; 
+	height: 22rem;
+	margin: 0 7.5rem;
+	float:left;
+}
+
+.about_text{
+	margin-right: 12%;
+	margin-left: 10%;
+	font-size: 21px;
+	height: 300px;
+	/*background-color: #2a4;*/
+	text-align:left;
+}
+
+.home_bg{
+	background-image: linear-gradient(to bottom, rgba(0, 250, 0, 0.15), rgba(0, 15, 0, 0.4)), url("home.jpg");
+    background-image: -moz-linear-gradient(top, rgba(0, 250, 0, 0.15), rgba(0, 15, 0, 0.4)), url("home.jpg");
+    background-image: -o-linear-gradient(top, rgba(0, 0, 250, 0.15), rgba(0, 15, 0, 0.4)), url("home.jpg");
+    background-image: -ms-linear-gradient(top, rgba(0, 250, 0, 0.15), rgba(0, 15, 0, 0.4)), url("home.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 250, 0, 0.15)), to(rgba(0, 15, 0, 0.4))), url("home.jpg");
+    background-image: -webkit-linear-gradient(top, rgba(40, 255, 40, 0.15), rgba(20, 15, 20, 0.4)), url("home.jpg");
+
+	height: 35rem; 
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	z-index: 2;
+}
+
+.home_title{
+	color: white;
+	font-size: 60px;
+	text-align: right;
+	padding: 25px 125px;
+	font-family: gotham medium;
+}
+.home_subtitle{
+	margin: 0;
+	color: #eee;
+	font-size: 27px;
+	text-align: right;
+	padding: 0px 8rem;
+}
+
+.about_bg{
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.9)), url("about_bg.jpg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery_bg{
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 1)), url("gallery_bg.jpg");
+	height: 700px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+	color: #111;
+	font-size: 60px;
+	text-align: center;
+	padding: 20px 125px;
+	position: relative;
+	font-family: nexa light;
+}
+h2{
+	color: #fefefe;
+	font-size: 60px;
+	padding: 20px 125px;
+	position: relative;
+	font-family: nexa light;
+	text-align: right;
+}
+
+.headerDivider {
+     border-left: 1px solid #38546d; 
+     border-right: 1px solid #16222c; 
+     height: 80px;
+     position: absolute;
+     right: 249px;
+     top: 10px; 
+}
+
+.contact_footer {
+	background-image: -webkit-linear-gradient(top, rgba(0, 136, 34, 0.85), rgba(0, 136, 0, 0.9)), url("home.jpg");
+    list-style-type: none;
+    margin: 0px;
+    padding: 45px 0px;
+    overflow: hidden;
+    background-color: #082;
+	width: 100%;
+	border-top: 1px solid #777;
+
+	height: 135px;
+	display: inline-block;
+    color: #eee;
+    text-align: center;
+    text-decoration: none;
+    font-size: 19px;
+	
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0px 0%;
+    padding: 5px 0;
+    overflow: visible;
+    background-color: #eee;
+	width: 100%;
+	top: 0;
+	border-bottom: 1px solid #999;
+	position: fixed;
+	z-index: 5;
+}
+
+/* Float the list items side by side */
+ul.topnav li {
+	float: left;
+}
+
+/* Style the links inside the list items */
+
+ul.topnav li h1 {
+    display: inline-block;
+    color: #111;
+    text-align: center;
+    padding: 60px;
+    text-decoration: none;
+    font-size: 19px;
+	
+}
+
+ul.topnav li a {
+    display: inline-block;
+    color: #111;
+    text-align: center;
+    padding: 9px 60px;
+    text-decoration: none;
+    transition: 0.28s;
+    font-size: 19px;
+	
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {
+	background-color: #2e6;
+	color: #eee;
+}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+
+ /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+
+
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */    
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
