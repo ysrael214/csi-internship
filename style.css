@@ -4,7 +4,7 @@
 }
 
 html{
-	font-family: nexa light;
+	font-family: "Nexa Light";
 }
 
 a {
@@ -125,14 +125,14 @@ h1{
 	text-align: center;
 	padding: 20px 125px;
 	position: relative;
-	font-family: nexa light;
+	font-family: "Nexa Light";
 }
 h2{
 	color: #fefefe;
 	font-size: 60px;
 	padding: 20px 125px;
 	position: relative;
-	font-family: nexa light;
+	font-family: "Nexa Light";
 	text-align: right;
 }
 
